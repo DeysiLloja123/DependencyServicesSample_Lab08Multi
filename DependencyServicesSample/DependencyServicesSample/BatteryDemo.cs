@@ -13,8 +13,7 @@ namespace DependencyServicesSample
     {
         public BatteryDemo()
         {
-            InitializeComponent();
-
+           
             StackLayout stack = new StackLayout();
 
             var button = new Button
