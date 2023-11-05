@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -13,7 +14,8 @@ namespace DependencyServicesSample
     {
         public BatteryDemo()
         {
-           
+            InitializeComponent();
+
             StackLayout stack = new StackLayout();
 
             var button = new Button
@@ -71,3 +73,4 @@ namespace DependencyServicesSample
         }
     }
 }
+
